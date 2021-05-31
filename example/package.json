@@ -8,7 +8,8 @@
     "start": "EXPO_NO_TYPESCRIPT_SETUP=1 expo start",
     "android": "EXPO_NO_TYPESCRIPT_SETUP=1 expo start --android",
     "ios": "EXPO_NO_TYPESCRIPT_SETUP=1 expo start --ios",
-    "web": "EXPO_NO_TYPESCRIPT_SETUP=1 expo start --web"
+    "web": "EXPO_NO_TYPESCRIPT_SETUP=1 expo start --web",
+    "windows": "react-native run-windows"
   },
   "main": "node_modules/expo/AppEntry.js",
   "dependencies": {
@@ -27,13 +28,14 @@
     "file-loader": "^4.0.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.0.tar.gz",
+    "react-native": "^0.64.0",
     "react-native-gesture-handler": "~1.8.0",
     "react-native-reanimated": "~1.13.0",
     "react-native-safe-area-context": "3.1.9",
     "react-native-screens": "~2.15.0",
     "react-native-vector-icons": "^6.6.0",
-    "react-native-web": "~0.13.12",
+    "react-native-web": "^0.16.3",
+    "react-native-windows": "^0.63.0-0",
     "typeface-roboto": "^0.0.54"
   },
   "devDependencies": {
